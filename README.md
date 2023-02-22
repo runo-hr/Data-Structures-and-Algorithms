@@ -3,12 +3,18 @@
 ## General Leetcode questions
 * [Leetcode Technical Problems](/leetcode/)   
 
+## Sorting
+* [Merge Sort array](/Sorting/sort_array.py)
+
 ## Stacks and Queues
 * [Hungry students](/Stacks%20and%20queues/hungry_students.py)
 * [Valid Parenthesis](/Stacks%20and%20queues/valid_parenthesis.py)
 * [MInimum stack element in constant time](/Stacks%20and%20queues/min_stack.py)
 * [Stack implementation with a queue](/Stacks%20and%20queues/stack_queue_implementation.py)
 
+## Fibonacci Sequence
+* [Fibonacci Sequence](/Fibonacci/fibonacci.py)
+* [Climbing stairs](/Fibonacci/climb_stairs.py)
 
 ## Linked Lists
 ### Singly linked list
