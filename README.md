@@ -5,6 +5,7 @@
 
 ## Sorting
 * [Merge Sort array](/Sorting/sort_array.py)
+* [Merge K sorted linked lists](/Sorting/merge_k_lnkd_lsts.py)
 
 ## Stacks and Queues
 * [Hungry students](/Stacks%20and%20queues/hungry_students.py)

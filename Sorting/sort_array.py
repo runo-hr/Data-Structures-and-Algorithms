@@ -1,4 +1,5 @@
 class Solution:
+    # O(nlog(n)) time
     def sortArray(self, nums: list) -> list:
         if len(nums) <= 1:
             return nums
