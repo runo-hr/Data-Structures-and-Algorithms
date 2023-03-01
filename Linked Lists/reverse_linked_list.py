@@ -26,21 +26,23 @@ class Solution:
             return None
         
         new_head = head
-        # print(f'new_head : {new_head.val}')
+        print(f'new_head : {new_head.val}')
         if head.next:
-            new_head = self.reverse_recursively(head.next)
-            # print(f'new_head : {new_head.val}')
-            # print(f'head : {head.val}')
-            # print(f'head.next : {head.next.val}')
+            new_head = self.reverse_recursively(head.next) # make the tail the new head
+            print(f'new_head : {new_head.val}')
+            print(f'head : {head.val}')
+            print(f'head.next : {head.next.val}')
             head.next.next = head # reverse
-        # print(f'head : {head.val}')
+        print()
+        print(f'head : {head.val}')
         head.next = None
-        # print(f'new_head : {new_head.val}')
+        print(f'new_head : {new_head.val}')
+        print()
         return new_head
 
 solver = Solution()
 print(f'heda : {heda.val}')
 new_heda = solver.reverse_recursively(heda) 
 print(f'new_heda : {new_heda.val}')
-new_heda2 = solver.reverse_pointers(new_heda) 
-print(f'new_heda2: {new_heda2.val}')
+# new_heda2 = solver.reverse_pointers(new_heda) 
+# print(f'new_heda2: {new_heda2.val}')
